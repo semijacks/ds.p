@@ -1,11 +1,16 @@
 {
   "name": "@ds.p/react",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "lib/index.js",
   "license": "MIT",
   "devDependencies": {
     "@types/react": "^18.0.15",
     "react": "^18.2.0",
+    "rollup": "^2.77.2",
+    "rollup-plugin-typescript2": "^0.32.1",
     "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "build": "rollup -c"
   }
 }

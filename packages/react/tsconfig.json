@@ -1,7 +1,10 @@
 {
   "compilerOptions": {
+    "outDir": "lib",
     "target": "esnext",
-    "module": "commonjs",
+    "module": "ESNext",
+    "lib": ["DOM", "ESNext"],
+    "jsx": "react",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
@@ -13,8 +16,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "declaration": true,
-    "moduleResolution": "node",
-    "jsx": "react-jsx"
+    "moduleResolution": "node"
   },
   "include": ["src"],
   "exclude": ["node_modules", "lib"]
